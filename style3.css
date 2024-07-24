@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #69d2ed;
+}
+
+header {
+    background-color: #3d16a0;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    background-color: #7ed5eb;
+}
+
+#about .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffb4ef;
+    color: #110432;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color: #ffb4ef;
+    color: #220961;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(210, 206, 206, 0.1);
+}
+
+.project {
+    background-color: #a0cfee;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #210853;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: large;
+    box-shadow: 0 0 10px rgba(235, 229, 229, 0.1);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#resume a {
+    text-decoration:wavy;
+    color: rgb(157, 202, 247);
+    background-color: #a20f80;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#contact p {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #ab1313;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
